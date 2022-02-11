@@ -17,6 +17,12 @@
 //  )
 
  //Manipulando dados
-let nome = "Pedro";
-console.log(nome.length)
+// let nome = "Pedro";
+// console.log(nome.length
 
+//Para verificar se há uma palavra em um texto
+let phrase = "Eu quero viver uma vida incrivel";
+console.log(phrase.includes("vida"))
+
+//Transformar uma string em um array
+console.log(Array.from(phrase));
