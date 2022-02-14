@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+/* header {
+    border: 5px dashed red;
+    height: 400px;
+    background-color: aqua;
+    background-image: url(assets/sEorc6oh_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size:30%;
+    background-position: center center;
+    background-origin: content-box;
+    background-clip: content-box;
+} */
+main{
+    /* color: white;
+    margin: 20px;
+    border: 5px dashed red;
+    height: 400px;
+    background-color: aqua;
+    background-image: url(assets/sEorc6oh_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size:30%;
+    background-position: center center;
+    background-origin: content-box;
+    background-clip: content-box; */
+
+    background: linear-gradient(red, blue);
+}
