@@ -1,0 +1,17 @@
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:nth-child(1){
+    order: 1;
+    background-color: aqua;
+}
+.item:nth-child(2){
+    order: 2;
+    background-color: yellow;
+}
+.item:nth-child(3){
+    order: 0;
+    background-color: green;
+}
