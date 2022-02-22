@@ -1,11 +1,23 @@
 .flexbox{
     display: flex;
     justify-content: space-between;
+    /* flex-flow: column; */
+    height: 150px;
+
+
+    align-items: center;
+    justify-content: center;
 }
 
+.item{
+    border: dashed 1px red;
+    /* width: 300px; */
+    flex-basis: 10%;
+}
 .item:nth-child(1){
     order: 1;
     background-color: aqua;
+    flex-grow: 1;
 }
 .item:nth-child(2){
     order: 2;
