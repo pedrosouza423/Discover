@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    gap: 1rem;
+    height: 95vh;
+    
+}
+
+.a{
+    background-color: aqua;
+    width: 100px;
+    flex-basis: 25%;
+
+}
+.b{
+    background-color: chartreuse;
+    width: 100px;
+    flex: 1;
+}
