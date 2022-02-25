@@ -2,13 +2,11 @@
 
 // search.value = "Pedro"
 
-const header = document.querySelector('header');
+const paragrafo = document.querySelector("h1")
 
-console.log(header);
+paragrafo.classList.add("ex")
 
-header.style.backgroundColor = "rgba(0, 55, 255,)"
-
-
+// console.log(paragrafo.parentElement.ch)
 
 
 // header.setAttribute('id','header');
